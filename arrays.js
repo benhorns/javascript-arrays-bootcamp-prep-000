@@ -30,7 +30,6 @@ return aarray
 }
 
 function removeElementFromBeginningOfArray (originalarray){
-  var newarray = originalarray
-  newarray.shift()
-  return newarray 
+  originalarray.slice(1)
+  return originalarray 
 }
