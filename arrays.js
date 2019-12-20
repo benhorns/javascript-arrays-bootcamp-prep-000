@@ -12,5 +12,6 @@ function addElementToBeginningOfArray(arr, element){
  }
 
 function addElementToEndOfArray (arr, elemnt){
-[... arr, element]  
+[... arr, element]
+return arr  
 }
