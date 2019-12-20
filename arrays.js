@@ -10,3 +10,7 @@ function addElementToBeginningOfArray(arr, element){
    arr.unshift(element)
    return arr
  }
+
+function addElementToEndOfArray (arr, elemnt){
+[... arr, element]  
+}
