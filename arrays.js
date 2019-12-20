@@ -5,3 +5,8 @@ function addElementToBeginningOfArray(arr, element){
   otherarr.unshift(element)
   return otherarr
  }
+
+ function destructivelyAddElementToBeginningOfArray (arr, element){
+   arr.unshift(element)
+   return arr
+ }
